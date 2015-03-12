@@ -31,7 +31,7 @@ s = open("data.txt").read()
 
 s = s.replace(" ", "").replace("\n", "").replace("\xa3\xac", ",").replace("\xef\xbc\x8c", ",")
 
-ids = s.split(",")[:20]
+ids = s.split(",")#[:20]
 
 exist_ids = []
 s = ""
